@@ -26,10 +26,6 @@ export const Home = (props) => {
     })
   }, [])
 
-  console.log(artists)
-
-  console.log(bands)
-
   return (
     <div className="Home">
       <div className="Header">

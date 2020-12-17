@@ -1,0 +1,28 @@
+
+.Home {
+    width: 100%;
+    height: 100vh;
+}
+
+.Header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 140px;
+    width: 100%;
+    height: 300px;
+    background-color: #40403f;
+}
+.Header:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30%;
+    width: 100%;
+    background: #fff;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    user-select: none;
+  }
